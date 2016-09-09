@@ -5,7 +5,6 @@ import java.applet.*;
 
 /**
  * Created by Lisa on 9-9-2016.
- * hallo
  */
 public class Opdracht3 extends Applet {
 
