@@ -28,13 +28,11 @@ public class Opdracht2 extends Applet {
         gewichtValerie = 40;
         gewichtJeroen = 100;
         gewichtHans = 80;
-
-
     }
 
     public void paint(Graphics g) {
-        setBackground(Color.white);
-        g.setColor(Color.black);
+        setBackground(achtergrond);
+        g.setColor(omheen);
         g.drawLine(30, 20, 30, baseline);
         g.drawLine(30, baseline, 230, baseline);
         g.drawLine(25, 220, 35, 220);
