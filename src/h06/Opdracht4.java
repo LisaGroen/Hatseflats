@@ -1,27 +1,28 @@
 package h06;
 
-import java.awt.*;
-import java.applet.Applet;
-
 /**
- * Created by Gebruiker on 16-9-2016.
+ * Created by CatsLove on 15-9-2016.
  */
+
+        import java.awt.*;
+        import java.applet.*;
+
 public class Opdracht4 extends Applet {
+    double a;
+    double b;
+    double c;
+    double uitkomst;
 
-    int uitkomst1;
-    double a, b, c, d;
-    double uitkomts;
-
-    public void init() {
+    public void init () {
         a = 5.9;
         b = 6.3;
         c = 6.9;
-        d = 3;
-        uitkomts = (a + b + c) / d * 10;
-        uitkomst1 = (int) uitkomts;
+        double gemiddelde = a + b + c;
+        gemiddelde = gemiddelde / 3;
+        uitkomst = (double)(int)(gemiddelde * 10) / 10.0;
     }
 
-    public void paint(Graphics g) {
-        g.drawString("gemiddelde cijfer curist : " + uitkomst1, 20, 20);
+    public void paint (Graphics g) {
+        g.drawString("Het gemiddelde is : " + uitkomst, 20, 20);
     }
 }
