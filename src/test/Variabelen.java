@@ -1,4 +1,4 @@
-package test.variabelen;
+package test;
 
 import java.applet.Applet;
 import java.awt.*;

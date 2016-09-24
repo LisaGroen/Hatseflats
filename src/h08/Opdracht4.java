@@ -44,7 +44,6 @@ public class Opdracht4 extends Applet{
 
     class maalHandler implements ActionListener
     {
-
         public void actionPerformed( ActionEvent e )
         {
             String invoer1 = invoervak1.getText();
