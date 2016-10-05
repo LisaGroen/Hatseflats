@@ -21,7 +21,7 @@ public class Opdracht4 extends Applet {
     public void init() {
         tekstvak = new TextField("", 5);
         tekstvak2 = new TextField("", 5);
-        label = new Label("Type het maand nummer en druk op enter");
+        label = new Label("Type het maand nummer en jaarnummer druk daarna op enter");
         tekstvak.addActionListener( new TekstvakListener() );
         tekstvak2.addActionListener( new TekstvakListener() );
         tekst = "";
@@ -32,8 +32,8 @@ public class Opdracht4 extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.drawString(tekst, 50, 60 );
-        g.drawString(tekst2, 50, 80 );
+        g.drawString(tekst, 50, 80 );
+        g.drawString(tekst2, 50, 100 );
     }
 
     class TekstvakListener implements ActionListener {
