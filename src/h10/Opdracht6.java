@@ -42,7 +42,7 @@ public class Opdracht6 extends Applet {
                     tekst = "Slecht";
                     break;
                 case 4:
-                    tekst = "Omvoldoende";
+                    tekst = "Onvoldoende";
                     break;
                 case 5:
                     tekst = "Matig";
