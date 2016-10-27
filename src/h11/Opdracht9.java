@@ -2,7 +2,6 @@ package h11;
 
 import java.awt.*;
 import java.applet.*;
-
 /**
  * Created by Gebruiker on 26-10-2016.
  * Af
