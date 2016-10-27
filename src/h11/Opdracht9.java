@@ -10,7 +10,7 @@ public class Opdracht9 extends Applet{
 
     public void paint(Graphics g) {
         setBackground(Color.blue);
-        int x = 50;
+        int x;
         int y = 50;
         for (int row = 0; row < 4; row++) {
             x = 50;
