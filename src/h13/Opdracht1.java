@@ -22,7 +22,7 @@ public class Opdracht1 extends Applet{
         add(knop[0]);
         knop[0].addActionListener(new Knoplisterner());
 
-        knop[1] = new Button("Blue");
+        knop[1] = new Button("Cyan");
         add(knop[1]);
         knop[1].addActionListener(new Knoplisterner1());
 
@@ -47,7 +47,7 @@ public class Opdracht1 extends Applet{
     }
     class Knoplisterner1 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            kleur = "Blue";
+            kleur = "Cyan";
             repaint();
         }
     }
@@ -72,7 +72,7 @@ public class Opdracht1 extends Applet{
 
     public void paint(Graphics g) {
         knop[0].setBackground(Color.RED);
-        knop[1].setBackground(Color.BLUE);
+        knop[1].setBackground(Color.CYAN);
         knop[2].setBackground(Color.YELLOW);
         knop[3].setBackground(Color.GREEN);
         knop[4].setBackground(Color.PINK);
