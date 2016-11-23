@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import java.util.Random;
 
 /**
- * Created by Gebruiker on 18-11-2016. ^^
+ * Created by Gebruiker on 18-11-2016. ^^!
  */
 public class Opdracht1 extends Applet {
 
