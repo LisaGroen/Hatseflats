@@ -75,14 +75,17 @@ public class Opdracht3 extends Applet {
             if (spel != 21 && spel > 20) {
                 int hulp = spel - 21;
                 spel -= hulp;
+                winsmily = true;
             }
             else if (spel != 17 && spel > 16 && spel < 21) {
                 int hulp = spel - 17;
                 spel -= hulp;
+                winsmily = true;
             }
             else if (spel != 13 && spel > 12 && spel < 17) {
                 int hulp = spel - 13;
                 spel -= hulp;
+                winsmily = true;
             }
             else if (spel != 9 && spel > 8 && spel < 13) {
                 int hulp = spel - 9;
@@ -91,10 +94,12 @@ public class Opdracht3 extends Applet {
             else if (spel != 5 && spel > 4 && spel < 9) {
                 int hulp = spel - 5;
                 spel -= hulp;
+                winsmily = true;
             }
             else if (spel != 1 && spel > 0 && spel < 5) {
                 int hulp = spel - 1;
                 spel -= hulp;
+                winsmily = true;
             }
             else {
                 int random = new Random().nextInt(3) + 1;
